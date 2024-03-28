@@ -10,5 +10,52 @@
 body {
   width: 100%;
   height: 100%;
-  background-color: #565454;
+  background-color: 	#c6e2ff;
+
+
+}
+
+button {
+  height: 50px;
+  width: 150px;
+  padding: 10px 20 px;
+  color: 	#fbf4ee;
+  background-color: 	#a2aaa5;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 0 5px;
+}
+
+button:hover {
+  background-color: 	#7f886e;
+}
+
+#counter {
+  font-size: 185px;
+  font-family: oswald, sans-serif;
+  color: 	#fbf4ee;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  
+}
+
+/* .container div {
+  font-size: 15rem;
+} */
+
+section {
+  margin: 400px;
+  margin-left: 600px;
+  margin-top: 250px;
+}
+
+#increment, #decrement, #reset {
+  font-size: 38px;
+  font-family: Rajdhani, sans-serif;
 }
